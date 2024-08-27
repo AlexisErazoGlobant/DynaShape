@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DynaShape</id>
+    <version>$Version$</version>
+    <authors>Long Nguyen</authors>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/LongNguyenP/DynaShape</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Reference the DynaShape core functionalities.
+    </description>
+    <copyright>Copyright Long Nguyen 2024</copyright>
+    <dependencies>
+      <group targetFramework="$TargetFramework$">
+        <dependency id="DynamoVisualProgramming.ZeroTouchLibrary" version="$Version$"/>
+      </group>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="bin\DynaShape.dll" target="lib\net8.0"/>
+    <file src="bin\DynaShape.xml" target="lib\net8.0"/>
+    <file src="bin\DynaShape.customization.dll" target="lib\net8.0"/>
+    <file src="bin\DynaSpace.dll" target="lib\net8.0"/>
+    <file src="bin\DynaSpace.xml" target="lib\net8.0"/>
+    <file src="bin\DynaSpace.customization.xml" target="lib\net8.0"/>
+    <file src="bin\DynaShape_DynamoCustomization.xml" target="lib\net8.0"/>
+    <file src="extra\DynaShape_ViewExtensionDefinition.xml" target="lib\net8.0"/>
+    <file src="pkg.json" target="lib\net8.0"/>
+  </files>
+</package>
