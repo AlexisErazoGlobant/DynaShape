@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynaShape", "DynaShape\Dyna
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynaSpace", "DynaSpace\DynaSpace.csproj", "{E6BB3E64-EC86-4810-A79C-501BAB0A120E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynaShapeTests", "DynaShapeTests\DynaShapeTests.csproj", "{DB1574AE-0352-4F0D-B6A8-93884E67CD4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{E6BB3E64-EC86-4810-A79C-501BAB0A120E}.Debug|x64.Build.0 = Debug|x64
 		{E6BB3E64-EC86-4810-A79C-501BAB0A120E}.Release|x64.ActiveCfg = Release|x64
 		{E6BB3E64-EC86-4810-A79C-501BAB0A120E}.Release|x64.Build.0 = Release|x64
+		{DB1574AE-0352-4F0D-B6A8-93884E67CD4E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DB1574AE-0352-4F0D-B6A8-93884E67CD4E}.Debug|x64.Build.0 = Debug|Any CPU
+		{DB1574AE-0352-4F0D-B6A8-93884E67CD4E}.Release|x64.ActiveCfg = Release|Any CPU
+		{DB1574AE-0352-4F0D-B6A8-93884E67CD4E}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
