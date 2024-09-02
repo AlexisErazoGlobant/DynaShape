@@ -35,7 +35,7 @@ deployment:
   - type: sign
     files_to_sign:
       - package_output\DynaShape\bin\DynaShape.dll
-      - package_output\DynaShape\bin\DynaSpace.dll
+      - package_output\DynaSpace\bin\DynaSpace.dll
 
   - type: artifacts
     allow_branches: master
