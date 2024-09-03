@@ -551,6 +551,9 @@ public class Solver : IDisposable
             Display = null;
         }
 
-        DynaShapeViewExtension.Parameters.CurrentWorkspaceCleared -= CurrentWorkspaceClearedHandler;
+        if (DynaShapeViewExtension.Parameters != null)
+        {
+            DynaShapeViewExtension.Parameters.CurrentWorkspaceCleared -= CurrentWorkspaceClearedHandler;
+        }
     }
 }
