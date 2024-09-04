@@ -25,7 +25,7 @@ code_analysis:
 soc2:
   harmony:
     allow_branches:
-      - master
+      - release-patch
     hidden_email_list: dynamo_ws_access
     fail_on_audit_failure: false
     third_party_lib_paths:
@@ -34,11 +34,11 @@ soc2:
 deployment:
   - type: sign
     files_to_sign:
-      - package_output\DynaShape\bin\DynaShape.dll
-      - package_output\DynaSpace\bin\DynaSpace.dll
+      - DynaShape\dist\DynaShape\bin\DynaShape.dll
+      - DynaShape\dist\DynaShape\bin\DynaSpace.dll
 
-  - type: artifacts
-    allow_branches: master
+  - type: github
+    allow_branches: release-patch
     publish_to_artifactory: false
     publish_to_jenkins: true
     scripts:
